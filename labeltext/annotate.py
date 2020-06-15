@@ -27,8 +27,8 @@ class TextAnnotation:
             print(f"labels: list with {len(self.labels)} elements")
         else:
             raise TypeError(f"`labels` expected to be List, recieved {type(self.labels)}")
-        if len(self.labels) > 16:
-            raise ValueError(f"Max no of labels (classes) supported: 16. Supplied: {len(self.labels)}")
+        if len(self.labels) > 24:
+            raise ValueError(f"Max no of labels (classes) supported: 24. Supplied: {len(self.labels)}")
         return 1
 
     def sanitize_output(self):
@@ -84,7 +84,9 @@ class TextAnnotation:
                 "annotated_at": "",
             }
 
-        shortcuts_all = list(range(1, 10)) + [0] + ["q", "w", "e", "r", "t", "y"]
+        shortcuts_all = (
+            list(range(1, 10)) + [0] + ["q", "w", "e", "r", "t", "y"] + ["a", "s", "d", "f"] + ["z", "x", "c", "v"]
+        )
         shortcuts = shortcuts_all[: len(self.labels)]
         self.shortcuts = [str(s) for s in shortcuts]
         self.legal_keystrokes = self.shortcuts + ["Q", "E", "R"]

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "labeltext"
-version = "0.1.0"
+version = "0.1.1"
 description = "labeltext is a simple command-line utility to annotate large amounts of text quickly for text classification tasks."
 authors = ["Soumendra Dhanee <soumendra@gmail.com>"]
 license = "MIT"
