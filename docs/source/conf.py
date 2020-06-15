@@ -21,6 +21,8 @@ project = "labeltext"
 copyright = "2020, Soumendra Dhanee"
 author = "Soumendra Dhanee (@dataBiryani)"
 
+# https://stackoverflow.com/questions/56336234/build-fail-sphinx-error-contents-rst-not-found
+master_doc = "index"
 
 # -- General configuration ---------------------------------------------------
 
