@@ -1,9 +1,20 @@
+[![pypi labeltext version](https://img.shields.io/pypi/v/labeltext.svg)](https://pypi.python.org/pypi/labeltext)
+[![Conda labeltext version](https://img.shields.io/conda/v/labeltext/labeltext.svg)](https://anaconda.org/labeltext/labeltext)
+[![labeltext python compatibility](https://img.shields.io/pypi/pyversions/labeltext.svg)](https://pypi.python.org/pypi/labeltext)
+[![labeltext license](https://img.shields.io/pypi/l/labeltext.svg)](https://pypi.python.org/pypi/labeltext)
+
+[![latest release date](https://img.shields.io/github/release-date/soumendra/labeltext.svg)](https://pypi.python.org/pypi/labeltext)
+[![latest release version](https://img.shields.io/github/release/soumendra/labeltext.svg)](https://pypi.python.org/pypi/labeltext)
+[![issue count](https://img.shields.io/github/issues-raw/soumendra/labeltext.svg)](https://pypi.python.org/pypi/labeltext)
+[![open pr count](https://img.shields.io/github/issues-pr-raw/soumendra/labeltext.svg)](https://pypi.python.org/pypi/labeltext)
+[![last commit at](https://img.shields.io/github/last-commit/soumendra/labeltext.svg)](https://pypi.python.org/pypi/labeltext)
+[![contributors count](https://img.shields.io/github/contributors/soumendra/labeltext.svg)](https://pypi.python.org/pypi/labeltext)
+
 # Getting started
 
 - Documentation: https://labeltext.readthedocs.io/en/latest/
-- Tested on python 3.7.6+
 
-## Workflow
+## Workflow overview
 
 After installing `labeltext`,
 
