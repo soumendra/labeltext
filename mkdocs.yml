@@ -1,1 +1,40 @@
 site_name: labeltext
+site_description: labeltext is a simple command-line utility to annotate large amounts of text quickly for text classification tasks
+site_author: Soumendra Dhanee
+
+repo_url: https://github.com/soumendra/labeltext
+edit_uri: ""
+
+theme:
+  name: mkdocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - python
+
+nav:
+  - Home: index.md
+  - User Guide:
+      - Your first annotation project: user-guide/your-first-annotation-project.md
+  - About:
+      - Release Notes: about/release-notes.md
+      - Contributing: about/contributing.md
+      - License: about/license.md
+
+extra_css:
+  - css/extra.css
+
+markdown_extensions:
+  - toc:
+      permalink: 
+  - admonition
+  - def_list
+  - mdx_gh_links:
+      user: soumendra
+      repo: labeltext
+
+copyright: Copyright &copy; 2020 <a href="https://twitter.com/dataBiryani">Soumendra Dhanee</a>
+google_analytics: ["UA-2688259-1", "labeltext"]
+
+plugins:
+  - search

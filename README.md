@@ -1,6 +1,7 @@
 # Getting started
 
-Tested on python 3.7.6+
+- Documentation: https://labeltext.readthedocs.io/en/latest/
+- Tested on python 3.7.6+
 
 ## Workflow
 
