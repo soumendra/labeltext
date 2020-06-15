@@ -1,6 +1,6 @@
 # https://docs.readthedocs.io/en/stable/config-file/v2.html
 
-version: 0.1.0
+version: 1
 sphinx:
   builder: html
   configuration: docs/conf.py
